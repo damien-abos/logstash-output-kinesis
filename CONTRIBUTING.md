@@ -23,12 +23,12 @@ rake
 ### Building gem
 
 ```
-gem build logstash-output-kinesis
+gem build logstash-output-kinesis-atlassian
 ```
 
 ### Testing locally built gem
 ```
-bin/logstash-plugin install --local /path/to/logstash-output-kinesis-5.1.1-java.gem
+bin/logstash-plugin install --local /path/to/logstash-output-kinesis-atlassian-5.1.1-java.gem
 ```
 
 ### Updating KPL

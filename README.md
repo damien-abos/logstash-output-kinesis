@@ -7,8 +7,8 @@ This is a plugin for [Logstash](https://github.com/elasticsearch/logstash). It w
 
 **This version is intended for use with Logstash 5.x.** For plugin versions compatible with older versions of Logstash:
 
- * [Logstash 1.5.x](https://github.com/samcday/logstash-output-kinesis/tree/1.5)
- * [Logstash 2.x](https://github.com/samcday/logstash-output-kinesis/tree/2.x)
+ * [Logstash 1.5.x](https://github.com/samcday/logstash-output-kinesis-atlassian/tree/1.5)
+ * [Logstash 2.x](https://github.com/samcday/logstash-output-kinesis-atlassian/tree/2.x)
 
 
 ## Configuration
@@ -222,9 +222,9 @@ Are more than welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 [Apache License 2.0](LICENSE)
 
-[travis]: https://travis-ci.org/samcday/logstash-output-kinesis
-[rubygems]: https://rubygems.org/gems/logstash-output-kinesis
+[travis]: https://travis-ci.org/samcday/logstash-output-kinesis-atlassian
+[rubygems]: https://rubygems.org/gems/logstash-output-kinesis-atlassian
 [kpldoc]: https://github.com/awslabs/amazon-kinesis-producer/blob/v0.12.5/java/amazon-kinesis-producer/src/main/java/com/amazonaws/services/kinesis/producer/KinesisProducerConfiguration.java#L38
 
-[badge-travis]: https://img.shields.io/travis/samcday/logstash-output-kinesis.svg?style=flat-square
-[badge-gem]: https://img.shields.io/gem/v/logstash-output-kinesis.svg?style=flat-square
+[badge-travis]: https://img.shields.io/travis/samcday/logstash-output-kinesis-atlassian.svg?style=flat-square
+[badge-gem]: https://img.shields.io/gem/v/logstash-output-kinesis-atlassian.svg?style=flat-square
