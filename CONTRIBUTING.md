@@ -33,4 +33,4 @@ bin/logstash-plugin install --local /path/to/logstash-output-kinesis-atlassian-5
 
 ### Updating KPL
 
-Change the dependency version in `build.gradle`, and then run `gradle copylibs`. Make sure to check in all the updated JARs!
+Change the dependency version in `build.gradle`, and then run `gradle build && gradle copylibs`. Make sure to check in all the updated JARs!
