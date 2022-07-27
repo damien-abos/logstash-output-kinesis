@@ -6,6 +6,10 @@ repositories {
 }
 
 dependencies {
+    // For Java 11
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
+
     implementation 'com.amazonaws:amazon-kinesis-producer:0.14.0'
     implementation 'com.amazonaws:aws-java-sdk-sts:1.11.1034'
     implementation ('org.apache.logging.log4j:log4j-slf4j-impl:2.6.2' ) {
